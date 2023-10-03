@@ -36,7 +36,7 @@ int main() {
     printf("Input values in Euro");
     int dailySales[4]; // Array to store the daily sales
     for (int i = 0; i < 4; ++i) {
-        printf("\nInput sales from day %d: ", i);
+        printf("\nInput sales from day %d: ", i+1);
         scanf_s("%d", &dailySales[i]); // Input sales from each day and saving them in array dailySales
     }
     int avgSales = averageSales(dailySales); // Calculate the average sales
