@@ -15,9 +15,9 @@ float averageSales(float sales[4]) {
 }
 
 // Function calculates the average spend per customer
-float avgSpendPerCustomer(float sales[4]) {
+float avgSpendPerCustomerDaily(float sales[4]) {
     float customers = 500.0f; // Number of customers
-    float avgSpend = arraySum(sales) / customers; // Using arraySum function to calculate the average spend per customer
+    float avgSpend = arraySum(sales) / (customers * 4.0f); // Using arraySum function to calculate the average spend per customer
     return avgSpend; // Return average spend per customer
 }
 
@@ -42,6 +42,6 @@ int main() {
     float avgSales = averageSales(dailySales); // Calculate the average sales
     printf("Average daily sales from 4 days: %.2f Euro", avgSales);
     printf("\n%s", salesValueMsg(avgSales));
-    printf("\nAverage spend per customer is: %.2f Euro", avgSpendPerCustomer(dailySales));
+    printf("\nAverage spend per customer daily is: %.2f Euro", avgSpendPerCustomerDaily(dailySales));
     return 0;
 }
