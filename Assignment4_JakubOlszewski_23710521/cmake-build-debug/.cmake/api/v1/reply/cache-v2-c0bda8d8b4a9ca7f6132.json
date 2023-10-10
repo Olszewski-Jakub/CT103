@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "Assignment4_JakubOlszewski_23710521_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/jolsz/uni/programming/Assignment4_JakubOlszewski_23710521/cmake-build-debug"
+		},
+		{
+			"name" : "Assignment4_JakubOlszewski_23710521_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Assignment4_JakubOlszewski_23710521_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/jolsz/uni/programming/Assignment4_JakubOlszewski_23710521"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/jolsz/uni/programming/untitled/cmake-build-debug"
+			"value" : "c:/Users/jolsz/uni/programming/Assignment4_JakubOlszewski_23710521/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +467,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/jolsz/uni/programming/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/jolsz/uni/programming/Assignment4_JakubOlszewski_23710521/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/jolsz/uni/programming/untitled"
+			"value" : "C:/Users/jolsz/uni/programming/Assignment4_JakubOlszewski_23710521"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -515,7 +551,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/untitled"
+			"value" : "C:/Program Files (x86)/Assignment4_JakubOlszewski_23710521"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -731,7 +767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled"
+			"value" : "Assignment4_JakubOlszewski_23710521"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1120,42 +1156,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "untitled_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/jolsz/uni/programming/untitled/cmake-build-debug"
-		},
-		{
-			"name" : "untitled_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "untitled_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/jolsz/uni/programming/untitled"
 		}
 	],
 	"kind" : "cache",

@@ -30,7 +30,7 @@ float avgSpendPerCustomerDaily(float sales[4]) {
 // Function returns a message based on the average sales
 // Using a function to return a message based on the avarage is more efficient
 // than using if statements in the main function, because of the inversion of statements
-char *salesValueMsg(float avgSales) {
+char * salesValueMsg(float avgSales) {
     if (avgSales > 15000.0f) // If average sales are higher than 15000 return "Sales are very high"
         return "Sales are high";
     if (avgSales >= 10000.0f) // If average sales are higher than 10000 return "Sales are high"
