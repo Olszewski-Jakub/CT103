@@ -21,11 +21,14 @@ int main() {
     scanf("%d", &additionalDays); // Getting the number of additional days
 
     float newTotal = total;
-    for (int i = 7; i < 7 + additionalDays; i++) {
-        printf("Day %d: ", i + 1);
-        scanf("%f", &sales[i]); // Adding inputed value to the array
-        newTotal += sales[i]; // Adding inputed value to the total sales
+    int k = 7;
+    while(k < 7 + additionalDays) {
+        printf("Day %d: ", k + 1);
+        scanf("%f", &sales[k]); // Adding inputed value to the array
+        newTotal += sales[k]; // Adding inputed value to the total sales
+        k++;
     }
+
     average = newTotal / (7 + additionalDays); // Calculating the average sales
     printf("New total sales over %d days: %.2f\n", 7 + additionalDays, newTotal);
     printf("New average daily sales over %d days: %.2f\n", 7 + additionalDays, average);
