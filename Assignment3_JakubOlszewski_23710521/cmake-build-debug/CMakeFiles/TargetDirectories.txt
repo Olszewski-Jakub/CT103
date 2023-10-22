@@ -1,3 +1,0 @@
-C:/Users/jolsz/uni/programming/Assignment3_JakubOlszewski_23710521/cmake-build-debug/CMakeFiles/Assignment3_JakubOlszewski_23710521.dir
-C:/Users/jolsz/uni/programming/Assignment3_JakubOlszewski_23710521/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/jolsz/uni/programming/Assignment3_JakubOlszewski_23710521/cmake-build-debug/CMakeFiles/rebuild_cache.dir
