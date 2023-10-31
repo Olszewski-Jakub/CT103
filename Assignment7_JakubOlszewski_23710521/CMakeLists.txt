@@ -3,4 +3,4 @@ project(Assignment7_JakubOlszewski_23710521 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(Assignment7_JakubOlszewski_23710521 library.c)
+add_executable(Assignment7_JakubOlszewski_23710521 main.c)
